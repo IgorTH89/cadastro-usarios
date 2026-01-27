@@ -1,6 +1,6 @@
 # 📚 Cadastro de Usuarios
 
-#🔧 Tecnologias usadas:
+# 🔧 Tecnologias usadas:
 - Java 17 (JDK 17)
 - Spring Boot
 - H2 Database
