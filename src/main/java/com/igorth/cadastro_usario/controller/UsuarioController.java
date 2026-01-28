@@ -1,6 +1,5 @@
 package com.igorth.cadastro_usario.controller;
 
-import org.apache.catalina.connector.Response;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -44,9 +43,9 @@ public class UsuarioController {
         return ResponseEntity.ok().build();
     }
 
-    //Put atualiza tudo, o Pat só uma parte(campos)
+    //Put atualiza tudo, o Patch só uma parte(campos)
     @PutMapping
-    public ResponseEntity<Void> atualizarUsuarioPorId(@RequestParam Integer id, @RequestParam Usuario usuario){
+    public ResponseEntity<Void> atualizarUsuarioPorId(@RequestParam Integer id, @RequestBody Usuario usuario){
         usuarioService.atualizarUsuarioPorId(id,usuario);
         return ResponseEntity.ok().build();
     }
