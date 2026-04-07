@@ -1,14 +1,21 @@
-# 📚 Cadastro de Usuarios
+# 📚 User Management System
 
-# 🔧 Tecnologias usadas:
-- Java 17 (JDK 17)
-- Spring Boot
-- H2 Database
+A robust backend API for user registration and management built with Java and Spring Boot.
+
+## 🚀 Technologies
+- Java 17
+- Spring Boot 3
 - Spring Data JPA
-- Lombok
+- H2 Database (or MySQL/PostgreSQL)
 - Maven
 
-# O que você vai aprender:
-- Como estruturar um projeto com Spring Boot
-- O que é um CRUD na prática (Create, Read, Update, Delete)
-- Como configurar banco de dados H2
+## 📋 Features
+- Create new users
+- List all registered users
+- Update user information
+- Delete users
+
+## 🔧 Installation & Setup
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/IgorTH89/cadastro-usuarios.git](https://github.com/IgorTH89/cadastro-usuarios.git)
