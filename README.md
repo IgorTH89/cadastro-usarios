@@ -19,3 +19,9 @@ A robust backend API for user registration and management built with Java and Sp
 1. Clone the repository:
    ```bash
    git clone [https://github.com/IgorTH89/cadastro-usuarios.git](https://github.com/IgorTH89/cadastro-usuarios.git)
+2. Navigate to the project folder:
+    ```bash
+    cd cadastro-usuarios
+3. Run the application:
+   ```bash
+   ./mvnw spring-boot:run
